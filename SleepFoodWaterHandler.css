@@ -1,0 +1,577 @@
+
+.homefoodsession {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.fooddata {
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+
+.fooddata .foodheading{
+
+    
+    
+    justify-content: center;
+    font-size: 70px;
+    font-family:fantasy;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+
+}
+
+.homeimage {
+    position: relative;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.homeimage img {
+    background: none;
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+
+.startknowbutton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: 59%;
+}
+
+.fooddata .startbutton {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 16px;
+    background-color:#4395d9; /* Blue color */
+    color: #faf5f5; /* White text color */
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fooddata .knowbutton {
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 16px;
+    background-color:#4395d9; /* Blue color */
+    color: #f2eeee; /* White text color */
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 15%;
+}
+.fooddata .knowbutton:hover{
+    background-color: #050606;
+}
+.fooddata .startbutton:hover{
+    background-color: #050606;
+}
+.everyentry {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: #faa8ca;
+}
+
+.everyentrypara {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.scrollbar {
+    margin-top: 7%;
+    position: inherit;
+}
+
+.mealfoodboxes {
+    position: sticky;
+    width: 100%;
+    height: 380px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    flex-direction: row;
+}
+
+.sleepbox {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.waterbox {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.stepsbox {
+    margin-left: 10%;
+    width: 20%;
+}
+
+.gymbox {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.mealbox {
+    margin-left: 5%;
+    width: 25%;
+    height: 130%;
+}
+
+.mealbox img {
+    margin-left: 01%;
+    margin-top: 2%;
+    border-radius: 5%;
+    width: 90%;
+    height: 47%;
+    z-index: 0;
+    /* Ensure the image is behind the text */
+    opacity: 10;
+    margin-right: 2px;
+}
+
+.mealbox .info {
+    position: absolute;
+    top: 63%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(242, 237, 237);
+    border-radius: 5px;
+    z-index: 1;
+    z-index: 1;
+    /* Position the text above the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.6%;
+}
+
+.mealbox .info:hover {
+    background-color: rgb(242, 237, 237);
+}
+
+.sleepbox img {
+    position: sticky;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 5%;
+    width: 116%;
+    height: 64%;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    /* Ensure the image is behind the text */
+    opacity: 10;
+}
+
+.sleepbox .info {
+    position: absolute;
+    top: 64%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(242, 237, 237);
+
+    border-radius: 5px;
+    z-index: 1;
+    z-index: 1;
+    /* Position the text above the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.6%;
+}
+
+.waterbox img {
+    margin-left: 40%;
+    margin-top: 1.3%;
+    border-radius: 5%;
+    width: 114%;
+    height: 63%;
+    z-index: 0;
+    /* Ensure the image is behind the text */
+    opacity: 10;
+    margin-right: 2px;
+}
+
+.waterbox .info {
+    position: absolute;
+    top: 64%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(242, 237, 237);
+    border-radius: 5px;
+    z-index: 1;
+    z-index: 1;
+    /* Position the text above the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mealslist2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.stepsbox img {
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 5%;
+    width: 140%;
+    height: 80%;
+    z-index: 0;
+    /* Ensure the image is behind the text */
+    opacity: 10;
+    margin-right: 2px;
+}
+
+.stepsbox .info {
+    position: absolute;
+    top: 197%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(242, 237, 237);
+
+    border-radius: 5px;
+    z-index: 1;
+    z-index: 1;
+    /* Position the text above the image */
+    box-shadow: 2px 2px 5px rgba(10, 9, 9, 0.2);
+}
+
+.gymbox img {
+    margin-left: 75%;
+    margin-top: 1%;
+    border-radius: 5%;
+    width: 140%;
+    height: 80%;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    /* Ensure the image is behind the text */
+    opacity: 10;
+}
+
+.gymbox .info {
+    position: absolute;
+    top: 197%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(242, 237, 237);
+    border-radius: 5px;
+    z-index: 1;
+    z-index: 1;
+    /* Position the text above the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.6%;
+}
+
+.dateandtime {
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    font-size: 35px;
+
+    border-radius: 5%;
+}
+
+.currentDate {
+    background-color: rgb(117, 115, 115);
+    font-size: 27px;
+    color: #f8fbfd;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.table {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(158, 8, 8, 0.2);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.mealheading {
+    font-style: italic;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 47%;
+}
+
+.meallogo {
+    margin-top: 1.7%;
+    width: 8%;
+    mix-blend-mode: multiply;
+}
+
+.mealtable {
+    margin-top: 2%;
+    margin-left: 20%;
+    box-shadow: 2px 2px 5px rgba(158, 8, 8, 0.2);
+}
+
+.sleepsession {
+    margin-top: 0;
+}
+
+.sleepsession .sleepflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.sleepsession .sleepheading {
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    width: 19%;
+}
+
+.sleepsession .sleeplogo img {
+    padding-top: 0.1%;
+    width: 12%;
+}
+
+.sleepsession .sleeptime {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 2%;
+    background-color: #f8fbfd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stepsession .stepsflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.stepsession .stepsheading {
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 2.8%;
+    width: 20%;
+}
+
+.stepsession .stepsflex .stepslogo img {
+    padding-top: 10%;
+    width: 10%;
+}
+
+.stepsession .stepstaken {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 2%;
+    background-color: #f8fbfd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.watersession .waterflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.watersession .waterheading {
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 21%;
+}
+
+.watersession .waterflex .waterlogo img {
+    padding-top: 10%;
+    width: 10%;
+}
+
+.watersession .watertaken {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 2%;
+    background-color: #f8fbfd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gymsession .gymflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.gymsession .gymheading {
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 3%;
+    max-width: 17.8%;
+}
+
+.gymflex .gymlogo {
+    width: 8%;
+}
+
+.gymsession .gymflex .gymlogo img {
+    padding-top: 40%;
+    width: 85%;
+    justify-items: flex-start;
+}
+
+.gymsession .gymdays {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 50%;
+    padding: 2%;
+    background-color: #f8fbfd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.clearsubmitbuttons {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 55%;
+    margin-bottom: 5%;
+    gap: 7%;
+}
+
+.clearbutton {
+    padding: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submitbutton {
+    padding: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* .meters {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    box-sizing: border-box;
+
+}
+
+.meters .card {
+    width: 200px;
+    min-height: 230px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(154, 17, 17);
+    align-items: center;
+    padding: 10px;
+
+}
+
+.meters .card:nth-child(1) {
+
+    background: linear-gradient(90deg, #ffe38d 0%, #ffb784 100%);
+}
+
+.meters .card:nth-child(2) {
+
+    background: linear-gradient(90deg, #c1e9a1 0%, #4ae987 100%);
+}
+
+.meters .card:nth-child(3) {
+
+    background: linear-gradient(90deg, #80fff4 0%, #7ed6ff 100%);
+}
+
+.meters .card:nth-child(4) {
+
+    background: linear-gradient(90deg, #ff7efb 0%, #f7dd6f 100%);
+}
+
+.meters .card:nth-child(5) {
+
+    background: linear-gradient(90deg, #ff8080 0%, #ffb47e 100%);
+}
+
+.meters .card:nth-child(6) {
+
+    background: linear-gradient(90deg, #ffe38d 0%, #ffb784 100%);
+}
+
+.meters .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.meters .card-header-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 49%;
+    background-color: rgb(234, 229, 229);
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px ☐ rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+} */
+
+/* .swipeimages{
+    margin-top: 6.5%;
+    
+    max-height: 50%;
+    margin-left: 10%;
+}
+.swipeimages .image1{
+    width: 100%;
+}
+.swipeimages .image2{
+    width: 100%;
+}
+.swipeimages .image3{
+    width: 100%;
+}
+.swipebuttons{
+    margin-bottom: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.swipebuttons .left{
+    width: 5%;
+
+    
+    
+}
+.swipebuttons .right{
+    width: 5%;
+
+    
+    
+} */

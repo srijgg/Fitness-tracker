@@ -1,0 +1,936 @@
+@font-face {
+    font-family: myFont;
+    src: url(aaa.ttf);
+}
+
+.gym {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    margin-left: 30%;
+
+}
+
+.h1 {
+    padding-top: 5.5%;
+    width: 100%;
+    font-size: 55px;
+    font-family: myFont;
+    font-style: linear-gradient(rgb(151, 151, 227), pink, rgb(132, 188, 224));
+}
+
+.gymlogo img {
+    margin-left: 27.5%;
+    margin-top: 0%;
+    width: 35%;
+}
+
+.searchbar {
+    
+    margin-left: 35%;
+}
+
+.searchbar .input {
+    margin-top: 2%;
+
+    width: 40%;
+
+    
+    color: rgb(254, 250, 250);
+    background-color:rgb(5, 243, 211);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(247, 186, 186, 0.2);
+    ;
+}
+.searchbar .input:hover{
+    
+    background-color:rgb(5, 243, 211) ;
+}
+
+.basic__excercises1 {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
+.basic__excercises2 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.basic__excercises3 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.basic__excercises4 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.basic__excercises10 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.basic__excercises11 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bodyweight {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.bodyweight img {
+    width: 90%;
+    height: 10%;
+}
+
+.staticyoga {
+    margin-left: 7%;
+    max-width: 25%;
+    height: 10%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+}
+
+.staticyoga img {
+    width: 90%;
+    height: 10%;
+}
+
+.legraises {
+    margin-left: 7%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.legraises img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.sidelungs {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.sidelungs img {
+    width: 90%;
+    height: 10%;
+}
+
+.yogastand {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 24%;
+    height: 10%;
+}
+
+.yogastand img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.crunches {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 24%;
+    height: 10%;
+}
+
+.crunches img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.wallsquat {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.wallsquat img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.divebomberpushups {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.divebomberpushups img {
+    width: 90%;
+    height: 10%;
+}
+
+.legsquat {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.legsquat img {
+    width: 90%;
+    height: 10%;
+}
+
+.yoga1 {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 14%;
+}
+
+.yoga1 img {
+
+    width: 90%;
+    height: 14%;
+}
+
+.yoga2 {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.yoga2 img {
+    width: 90%;
+    height: 10%;
+}
+
+.yoga3 {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 20%;
+}
+
+.yoga3 img {
+
+    width: 90%;
+    height: 19%;
+}
+
+.yoga4 {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.yoga4 img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.pushups {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.pushups img {
+    width: 90%;
+    height: 10%;
+}
+
+.plank {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 24%;
+    height: 10%;
+}
+
+.plank img {
+    width: 90%;
+    height: 10%;
+}
+
+.seatedcalf {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.seatedcalf img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.handstandpushups {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.handstandpushups img {
+    width: 90%;
+    height: 10%;
+}
+
+.bycyclecrunches {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.bycyclecrunches img {
+    width: 90%;
+    height: 10%;
+}
+
+.trunkcrunches {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.trunkcrunches img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.situps {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.situps img {
+    width: 90%;
+    height: 10%;
+}
+
+.kneediamond {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 24%;
+    height: 10%;
+}
+
+.kneediamond img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.birddog {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.birddog img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.erctorspine {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 26%;
+    height: 10%;
+}
+
+.erctorspine img {
+    width: 91%;
+    height: 10%;
+}
+
+.rocketsquat {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.rocketsquat img {
+
+    width: 90%;
+    height: 20%;
+}
+
+.squathold {
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.squathold img {
+
+    width: 90%;
+    height: 20%;
+}
+
+.duckwalk {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.duckwalk img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.highknee {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.highknee img {
+    width: 90%;
+    height: 10%;
+}
+
+
+
+
+.ballwallsquat {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.ballwallsquat img {
+    width: 90%;
+    height: 10%;
+}
+
+.basic__excercises5 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.basic__excercises6 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.pistolsquats {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    height: 10%;
+}
+
+.pistolsquats img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.russiantwist {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.russiantwist img {
+    width: 90%;
+    height: 10%;
+}
+
+.kettlebellswings {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 20%;
+}
+
+.kettlebellswings img {
+
+    width: 90%;
+    height: 19%;
+}
+
+.seatedchestfly {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.seatedchestfly img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.conedrill {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.conedrill img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.ballwallsquat {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.ballwallsquat img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.bulgariansplitsquat {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.bulgariansplitsquat img {
+
+    width: 88%;
+    height: 10%;
+}
+
+.biceppeakworkout {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.biceppeakworkout img {
+    width: 90%;
+    height: 10%;
+}
+
+.chestpress {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.chestpress img {
+
+    width: 90%;
+    height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.basic__excercises7 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bandquad {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.bandquad img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.bandquad {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.bandquad img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.conedrill {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 24%;
+    height: 10%;
+}
+
+.conedrill img {
+    width: 90%;
+    height: 10%;
+}
+
+.basic__excercises8 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bulgariansplitsquat {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.bulgariansplitsquat img {
+
+    width: 88%;
+    height: 10%;
+}
+
+.biceppeakworkout {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.biceppeakworkout img {
+    width: 90%;
+    height: 10%;
+}
+
+.chestpress {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.chestpress img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.chairdips {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.chairdips img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.deadlifts {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.deadlifts img {
+    width: 90%;
+    height: 10%;
+}
+
+.dumbellwall {
+    margin-left: 9%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.dumbellwall img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.basic__excercises9 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.chairdips {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.chairdips img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.deadlifts {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.deadlifts img {
+    width: 90%;
+    height: 10%;
+}
+
+.dumbellwall {
+    margin-left: 9%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.dumbellwall img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.dumbellchest {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.dumbellchest img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.dynamicback {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.dynamicback img {
+    width: 90%;
+    height: 10%;
+}
+
+.jumpingjacks {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.jumpingjacks img {
+    width: 90%;
+    height: 10%;
+}
+
+.lungs {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.lungs img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.pikepushups {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.pikepushups img {
+    width: 90%;
+    height: 10%;
+}
+
+.pullupschinups {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.pullupschinups img {
+    width: 90%;
+    height: 10%;
+}
+
+.cabelseatedtwist {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.cabelseatedtwist img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.lats {
+    margin-left: 5%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.lats img {
+
+    width: 90%;
+    height: 10%;
+}
+
+.leverlying {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.leverlying img {
+    width: 90%;
+    height: 10%;
+}
+
+.shoulderworkout {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 25%;
+    height: 10%;
+}
+
+.shoulderworkout img {
+    width: 90%;
+    height: 10%;
+}
+
+.dumbellpullover {
+    margin-left: 8%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    ;
+    max-width: 25%;
+    max-height: 20%;
+}
+
+.dumbellpullover img {
+    width: 100%;
+    height: 20%;
+}
+
+
+.kettlebellswings {
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 12px 12px 15px 10px rgba(247, 186, 186, 0.2);
+    max-width: 24%;
+    height: 19%;
+}
+
+.kettlebellswings img {
+
+    width: 90%;
+    height: 19%;
+}

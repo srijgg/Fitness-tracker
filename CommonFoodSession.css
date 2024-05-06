@@ -1,0 +1,1313 @@
+@font-face {
+    font-family: myFont;
+    src: url(Wee.ttf);
+}
+
+.heading {
+    margin: 0%;
+}
+
+.h1 {
+    margin-top: 5%;
+    padding-top: 3%;
+    margin-left: 30%;
+    font-size: 50px;
+    font-family: myFont;
+
+}
+.Boxes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.Boxes .boxes1 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.Boxes .boxes2 {
+    flex: 2;
+    display: flex;
+
+    padding-top: 2px;
+
+}
+
+.Boxes .Box1 {
+
+    width: 75%;
+    min-height: 230px;
+    margin-left: 15%;
+
+
+}
+
+.Boxes .Box2 {
+    width: 102%;
+    max-height: 59%;
+    margin-left: 2px;
+
+
+}
+
+.Boxes .Box3 {
+    width: 95%;
+    min-height: 59%;
+    margin-left: 13%;
+
+
+}
+
+.Boxes .Box4 {
+    width: 75%;
+    max-height: 57%;
+    margin-left: 20%;
+
+    margin-right: 2%;
+
+}
+
+.Boxes .boxpart2 {
+    padding-left: 30%;
+    margin-top: 0;
+
+
+
+
+}
+
+.Boxes .Box5 {
+    margin-left: 50%;
+    width: 35%;
+    height: 87%;
+
+}
+
+.Boxes .Box6 {
+    margin-left: 50%;
+    width: 140%;
+    height: 90%;
+
+}
+
+.Boxes .Box7 {
+    margin-left: 120%;
+    width: 120%;
+    height: 90%;
+
+
+}
+
+.Boxes .Box7:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box6:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box5:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box4:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box3:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box2:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.Boxes .Box1:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+/* gain weight */
+
+
+
+.weight__gain__session .card1 {
+    margin-left: 2%;
+    border-radius: 5%;
+
+}
+
+.cardcontent1 .fruit__info {
+    font-weight: bold;
+
+}
+
+.cardcontent1 .fruit__name {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 50px;
+    text-decoration: underline;
+    color: rgb(10, 15, 1);
+}
+
+.cardcontent1 .fruit__info span {
+    margin-right: 0%;
+}
+
+.cardcontent1 .fruit__info .fat {
+    margin-right: 26.5%;
+}
+
+.weight__gain__session .card2 {
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.cardcontent1 .fruit__info span {
+    margin-right: 23%;
+}
+
+.cardcontent1 .fruit__info .fat {
+    margin-right: 35%;
+}
+
+.weight__gain__session .card3 {
+    margin-left: 5%;
+    border-radius: 5%;
+
+}
+
+.weight__gain__session .card4 {
+
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__gain__session .card5 {
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5%;
+
+}
+
+.weight__gain__session .card6 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+
+}
+
+.weight__gain__session .card7 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+
+}
+
+.weight__gain__session .card8 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+
+}
+
+.weight__gain__session .card9 {
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5%;
+}
+
+.weight__gain__session .card10 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__gain__session .card11 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__gain__session .card12 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__gain__session .card13 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+
+.weight__gain__session .card14 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__gain__session .card15 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__gain__session .card16 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__gain__session .card17 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+
+.weight__gain__session .card18 {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__gain__session .card19 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__gain__session .card20 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+.weight__loss__session .card1 {
+    margin-left: 2%;
+    border-radius: 5%;
+
+}
+
+.weight__loss__session .card2 {
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card3 {
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card4 {
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.weight__loss__session .card5 {
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card6 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card7 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card8 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card9 {
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card10 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card11 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card12 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card13 {
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card14 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card15 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.weight__loss__session .card16 {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.fruit__name {
+    font-size: 5.2rem;
+
+}
+
+.fit__section {
+    background-color: rgb(253, 252, 250);
+}
+
+.breakfast__logo {
+    margin-top: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.breakfast__logo img {
+    margin-top: 5%;
+    width: 60%;
+    height: 40%;
+    border-radius: 30%;
+    mix-blend-mode: multiply;
+
+
+}
+
+.img__matter {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mini__info {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.logos {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 10%;
+
+
+
+}
+
+.logos .breakfastlogo {
+    margin-top: 2.4%;
+    width: 10%;
+    height: 30%;
+    margin-left: 10%;
+}
+
+.logos .lunchlogo {
+
+    width: 10%;
+    height: 5%;
+    margin-left: 15%;
+}
+
+.logos .dinnerlogo {
+    margin-top: 2.4%;
+    width: 10%;
+    height: 30%;
+    margin-left: 25%;
+}
+
+.logos .juicelogo {
+    margin-top: 2.4%;
+    width: 10%;
+    height: 30%;
+    margin-left: 10%;
+}
+
+.logos .snackslogo {
+    margin-top: 2.4%;
+    width: 10%;
+    height: 30%;
+    margin-left: 10%;
+}
+
+.logos .breakfastlogo img {
+    width: 70%;
+
+    max-height: 70%;
+    mix-blend-mode: multiply;
+
+}
+
+.logos .lunchlogo img {
+
+    width: 120%;
+    height: 120%;
+    mix-blend-mode: multiply;
+}
+
+.logos .dinnerlogo img {
+    width: 70%;
+    height: 70%;
+    mix-blend-mode: darken;
+}
+
+.logos .juicelogo img {
+    width: 70%;
+    height: 70%;
+    mix-blend-mode: darken;
+}
+
+.logos .snackslogo img {
+    width: 70%;
+    height: 70%;
+    mix-blend-mode: darken;
+}
+
+.breakfasts {
+    margin: 21%;
+    margin-bottom: 5%;
+       margin-top: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+
+}
+
+.breakfasts .heading {
+    margin-left: 45%;
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+.b1 {
+
+    margin: 8%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.b1 img {
+    max-width: 25%;
+    height: 1%;
+    margin-left: 5%;
+}
+
+.b1 span {
+    font-weight: bold;
+}
+
+.b1 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.reactbuttons {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reactbuttons .heartbutton {
+    margin-top: 0%;
+}
+
+.reactbuttons .savebutton {
+    margin-left: 2%;
+    padding-top: 1.5%;
+}
+
+.b2 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.b2 img {
+    max-width: 25%;
+    max-height: 10%;
+    margin-left: 5%;
+}
+
+.b2 span {
+    font-weight: bold;
+}
+
+.b2 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.reactbutton2 {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reactbutton2 .heartbutton2 {
+    margin-top: 0.1%;
+}
+
+.reactbutton2 .savebutton2 {
+    margin-left: 2%;
+    padding-top: 1.5%;
+}
+
+.b3 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 10%;
+}
+
+.b3 img {
+    max-width: 25%;
+    height: 1%;
+    margin-left: 5%;
+}
+
+.b3 span {
+    font-weight: bold;
+}
+
+.b3 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.b4 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+
+}
+
+.b4 img {
+    max-width: 28%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.b4 span {
+    font-weight: bold;
+}
+
+.b4 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.b5 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 10%;
+}
+
+.b5 img {
+    max-width: 25%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.b5 span {
+    font-weight: bold;
+}
+
+.b5 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.b6 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 10%;
+}
+
+.b6 img {
+    max-width: 25%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.b6 span {
+    font-weight: bold;
+}
+
+.b6 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.b7 {
+    margin: 9%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    padding-bottom: 10%;
+
+}
+
+.b7 img {
+    max-width: 25%;
+    max-height: 0%;
+    margin-left: 5%;
+}
+
+.b7 span {
+    font-weight: bold;
+}
+
+.b7 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.backbutton{
+
+    max-width: 20%;
+    margin-left: 80%;
+   
+    
+}
+.backbutton .backtomenu{
+    text-decoration: none;
+    color: rgb(96, 6, 251);
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    padding: 1%;
+    
+    
+}
+
+.lunch {
+    margin: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.lunch .heading {
+    padding-top: 2%;
+    margin-left: 40%;
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.l1 {
+    margin: 10%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l1 img {
+    max-width: 23%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.l1 span {
+    font-weight: bold;
+}
+
+.l1 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l2 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l2 img {
+    max-width: 25%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.l2 span {
+    font-weight: bold;
+}
+
+.l2 .matter {
+
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l3 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l3 img {
+    max-width: 27%;
+    max-height: 0%;
+    margin-left: 5%;
+}
+
+.l3 span {
+    font-weight: bold;
+}
+
+.l3 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l4 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l4 img {
+    max-width: 28%;
+
+    margin-left: 5%;
+}
+
+.l4 span {
+    font-weight: bold;
+}
+
+.l4 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l5 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l5 img {
+    max-width: 28%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.l5 span {
+    font-weight: bold;
+}
+
+.l5 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l6 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    max-height: 20%;
+}
+
+.l6 img {
+    max-width: 28%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.l6 span {
+    font-weight: bold;
+}
+
+.l6 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.l7 {
+    margin: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15%;
+    padding-bottom: 10%;
+}
+
+.l7 img {
+    max-width: 28%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.l7 span {
+    font-weight: bold;
+}
+
+.l7 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.dinner {
+    margin: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dinner .heading {
+    padding-top: 2%;
+    margin-left: 40%;
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.d1 {
+    margin: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.d1 img {
+    max-width: 25%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+.d1 span {
+    font-weight: bold;
+}
+
+.d1 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.d2 {
+    margin: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+.d2 img {
+    max-width: 26%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.d2 span {
+    font-weight: bold;
+}
+
+.d2 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.d3 {
+    margin: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+.d3 img {
+    max-width: 25%;
+    max-height: 5%;
+    margin-left: 5%;
+}
+
+.d3 span {
+    font-weight: bold;
+}
+
+.d3 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.d4 {
+    margin: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+.d4 img {
+    max-width: 26%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+.d4 span {
+    font-weight: bold;
+}
+
+.d4 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.d5 {
+    margin: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+    padding-bottom: 10%;
+}
+
+.d5 img {
+    max-width: 25%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+.d5 span {
+    font-weight: bold;
+}
+
+.d5 .matter {
+    padding-left: 2%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+@font-face{
+    src: url(Juice2.otf);
+    font-family: myFont;
+}
+.juiceinfo{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.juiceinfo .img{
+    
+    margin-left: 1%;
+    width: 85%;
+    
+}
+.juiceinfo .img .actualimg{
+    margin-bottom: 0px;
+    width: 110%;
+}
+.juiceinfo .juicehead h1{
+    font-style: italic;
+    margin-top: 15%;
+    margin-left:13%;
+    margin-right: 2%;
+    color: rgb(43, 33, 33);
+    font-family: bold ;
+    font-size: 85px;
+    font-weight: 700;
+    text-align: left;
+    gap: 3px;
+    
+    
+
+}
+.head .juiceimglogo .logoimg{
+    max-width: 15%;
+}
+
+    .juiceinfo .head p{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+
+.juice{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.juicedata{
+    padding-top: 0;
+    margin-left: 30%;
+}
+.juicedata h3{
+    font-style: italic;
+    font-weight: 500;
+}
+.juicedatabeet{
+    margin-left: 15%;
+}
+.juicedatabeet p{
+    margin-left: 20%;
+}
+.juice .more{
+    margin-left: 38%;
+    }
+
+.juice .more .title{
+    width: 70%;
+    }
+.juice1{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice1 .carrot img{
+    width: 100%;
+}
+.juice2{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice2 .apple img{
+    width: 100%;
+}
+.juice3{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 18.5%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice3 .beetroot img{
+    width: 100%;
+}
+.juice4{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice4 .coconut img{
+    width: 100%;
+}
+.juice5{
+    margin-top: 5%;
+    margin-left: 10%;
+    max-width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+    
+}
+.juice5 .ginger img{
+    width: 100%;
+   
+}
+.juice6{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice6 .kale img{
+    max-width: 100%;
+    min-height: 10%;
+    
+    
+}
+.juice7{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice7 .orange img{
+    width: 100%;
+}
+.juice8{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice8 .spanish img{
+    width: 100%;
+}
+.juice9{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice9 .berry img{
+    width: 100%;
+}
+.juice10{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice10 .celery img{
+    width: 100%;
+}
+.juice11{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 21%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice11 .cucumbermint img{
+    width: 100%;
+}
+.juice12{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    background-color: antiquewhite;
+    margin-bottom: 5%; 
+    border-radius: 2%;
+    box-shadow: 12px 12px 5px 1px rgba(123, 89, 89, 0.2);
+}
+.juice12 .pineapple img{
+    width: 100%;
+}

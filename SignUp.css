@@ -1,0 +1,71 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 65%;
+    display: inline;
+    box-sizing: border-box;
+    background:linear-gradient(white,rgb(85, 151, 184));
+    border-radius: 3%;
+    width: 27%;
+    
+    
+}
+.container .box{
+    
+    margin-left: 10%;
+    
+}
+
+.box .heading{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    }
+    .heading .welcome{
+        font-size: 45px;
+    }
+
+.name {
+
+    width: 60%;
+}
+.name FormLabel{
+    margin-bottom: 4%;
+}
+.email{
+    width: 65%;
+}
+.email .label{
+    margin-top: 9%;
+    width: 65%;
+}
+.password{
+    width: 65%;
+}
+.password .label{
+    margin-top: 9%;
+    width: 65%;
+}
+.ageheight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7%;
+
+    
+}
+.ageheight .height{
+    margin-left: 10%;
+    margin-right: 4%;
+}
+.button{
+    text-align: end;
+}
